@@ -1,5 +1,5 @@
-captions[0] = ['3.8','8.1'];
-captions[1] = ['8.1','10'];
+captions[0] = ['3.8','9.1'];
+captions[1] = ['8.1','9.1'];
 captions[2] = ['10.8','12.5'];
 	//And blood-black nothingness began to spin
 captions[3] = ['12.5','15.6'];
@@ -9,7 +9,7 @@ captions[5] = ['20.1','23.3'];
 captions[6] = ['23.3','25.2'];
 	
 captions[7] = ['26.8','31.6'];
-captions[8] = ['32.7','33'];
+captions[8] = ['32.4','33.2'];
 captions[9] = ['33.2','34'];
 	//Have you ever been in an institution?
 captions[10] = ['34','36'];
