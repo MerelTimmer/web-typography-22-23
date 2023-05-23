@@ -13,7 +13,7 @@ captions[8] = ['32.4','33.2'];
 captions[9] = ['33.2','34'];
 	//Have you ever been in an institution?
 captions[10] = ['34','36'];
-captions[11] = ['36','36.3'];
+captions[11] = ['36','36.8'];
 captions[12] = ['36.5','37.3'];
 	//Do they keep you in a cell?
 captions[13] = ['37.3','38.6'];
@@ -55,12 +55,12 @@ captions[39] = ['65.2','66.6'];
 	//Why don't you say that three times: "within cells interlinked".
 captions[40] = ['66.6','69.1'];
 
-captions[41] = ['69.1','70.6'];
-captions[42] = ['70.6','72.2'];
+captions[41] = ['69.1','74.2'];
+captions[42] = ['70.6','74.2'];
 captions[43] = ['72.2','74.2'];
 	// We're done.
 captions[44] = ['77.1','78.7'];
-captions[45] = ['80','81.738'];
+captions[45] = ['80','84.3'];
 captions[46] = ['82.2','84.3'];
 captions[47] = ['85.4','87'];
 

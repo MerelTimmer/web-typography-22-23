@@ -27,6 +27,9 @@ Feel free to adjust the defaults to your needs.
 .voice2 {
 	font-family: "Brenner Mono Regular";
 	color: white;
+	top: 90%;
+	left: 25%;
+	font-size: 120%;
 }
 
 .voice3 {
@@ -36,12 +39,19 @@ Feel free to adjust the defaults to your needs.
 
 .voice4 {
 	font-family: "Brenner Medium";
-	font-size: larger;
+	font-size: 140%;
 	font-style: italic;
 	color: white;
 	}
 
-
+	.voice2-1 {
+		top: 50%;
+		left: 70%;
+		color: white;
+		font-style: italic;
+		font-family: "Brenner Mono Regular";
+		font-size: 135%;
+	}
 
 
 
@@ -107,14 +117,14 @@ You probably want to change the styling.
 	opacity: 1;
 	transition: 0s;
 	font-family: "Brenner Bold";
-	font-size: larger;
+	font-size: 150%;
 }
 
 .p0.on span:nth-of-type(2) {
 	opacity: 1;
 	transition: 0s;
 	font-family: "Brenner Bold";
-	font-size: larger;
+	font-size: 150%;
 }
 
 .p0.on span:nth-of-type(3) {
@@ -138,19 +148,18 @@ You probably want to change the styling.
 
 .p1.on {
 	top: 20%;
-	left: 10%;
-	font-size: smaller;
+	left: 25%;
 }
 
 .p2.on {
 	top: -5%;
 	left: 30%;
+	font-size: 160%;
 }
 
 .p3.on {
 	top: 20%;
 	left: 62%;
-	font-size: smaller;
 }
 
 .p4.on, .p5.on {
@@ -171,14 +180,19 @@ font-family: "Brenner Mono Medium";
 	}
 
 
-/* FUCK OFF, skin-job */
-.p6.on {
+/* FUCK OFF, skin-job  */
+ .p6.on {
 	top: 15%;
-	left: 25%;
+	left: 20%;
+	border-style: dotted;
+	border-radius: 100%;
+	padding: 1em;
+	border-width: .15em;
+	border-color: rgba(255, 255, 255, 1);
 	transition: transform ease;
 	animation-name: whisper-fade;
-	animation-duration: .7s;
-	animation-delay: 1s;
+	animation-duration: 1s;
+	animation-delay: 1.5s;
 	animation-fill-mode: forwards;
 	animation-timing-function: ease-in-out;
 }
@@ -186,53 +200,499 @@ font-family: "Brenner Mono Medium";
 .p6.on span:first-of-type {
 	font-weight: bold;
 	font-style: italic;
-	font-size: large;
-	opacity: .7;
-	animation-name: whisper-shake;
-	transition: transform ease;
-	animation-duration: .2s;
-	animation-delay: 0s;
-	animation-iteration-count: infinite;
-	animation-timing-function: ease-in-out;
+	font-size: 170%;
+	color: rgb(202, 33, 33);
+	opacity: 0.8;
 }
 
 .p6.on span:nth-of-type(2) {
 	font-weight: bold;
 	font-style: italic;
-	font-size: large;
-	opacity: .6;
+	font-size: 160%;
+	color: rgb(202, 33, 33);
+	opacity: 0.7;
 }
 
 .p6.on span:nth-of-type(3) {
 	font-family: "Brenner Slab Regular";
 	font-style: italic;
-	opacity: .5;
+	font-size: 130%;
+	opacity: 0.5;
 }
+
+
 
 
 
 .p7 {
 	top: 90%;
-	left: 35%;
+	left: 25%;
 }
 
 
-.p8.on {
- top: 30%;
- left: 15%;
- transition: .5s;
- }
 
-.p8.off {
+
+
+
+
+
+/* Cells first */
+.p8.on {
+  top: 30%;
+  left: 15%;
+	text-shadow: #191829 0em 0em .2em;
+	padding: .5em;
+  font-size: 120%;
+  animation-name: fade;
+  animation-delay: .4s;
+  animation-duration: .3s;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+}
+
+
+.p9.on {
+text-shadow: rgb(225, 230, 0) 0em 0em .2em; 
+}
+
+.p10.on { 
+	top: 30%;
+	left: 8%;
+	text-shadow: #191829 0em 0em .2em;
+	font-size: 130%;
+	animation-name: fade;
+	animation-delay: 1.7s;
+	animation-duration: .3s;
+	animation-timing-function: ease-in;
+	animation-fill-mode: forwards;
+}
+
+
+.p10.on span:nth-of-type(6):before {
+	content: "\A";
+	white-space:pre;
+}
+
+.p11.on {
 	top: 30%;
 	left: 15%;
-	scale: 50%;
+	text-shadow: #191829 0em 0em .2em;
+	padding: .5em;
+	font-size: 150%;
+	animation-name: fade;
+	animation-delay: .5s;
+	animation-duration: .3s;
+	animation-timing-function: ease-in;
+	animation-fill-mode: forwards;
+}
+
+.p12.on {
+	text-shadow: rgb(225, 230, 0) 0em 0em .2em; 
+	}
+
+.p13.on {
+	top: 30%;
+	left: 8%;
+	text-shadow: #191829 0em 0em .2em;
+	padding: .5em;
+	font-size: 160%;
+	animation-name: fade;
+	animation-delay: .9s;
+	animation-duration: .3s;
+	animation-timing-function: ease-in;
+	animation-fill-mode: forwards;
+}
+
+.p14.on {
+	top: 30%;
+	left: 15%;
+	text-shadow: #191829 0em 0em .2em;
+	font-size: 180%;
+	animation-name: fade;
+	animation-delay: .4s;
+	animation-duration: .3s;
+	animation-timing-function: ease-in;
+	animation-fill-mode: forwards;
+}
+
+.p15.on {
+	text-shadow: rgb(225, 230, 0) 0em 0em .2em; 
+	}
+
+.p16.on {
+	top: 30%;
+	left: 8%;
+	text-shadow: #191829 0em 0em .2em;
+	font-size: 190%;
+	animation-name: fade;
+	animation-delay: 2.6s;
+	animation-duration: .3s;
+	animation-timing-function: ease-in;
+	animation-fill-mode: forwards;
+}
+
+.p16.on span:nth-of-type(5):before {
+	content: "\A";
+	white-space:pre;
+}
+
+.p16.on span:nth-of-type(10):before {
+	content: "\A";
+	white-space:pre;
+}
+
+.p17.on {
+	top: 30%;
+	left: 15%;
+	text-shadow: #191829 0em 0em .2em;
+	padding: .5em;
+	font-size: 210%;
+	animation-name: fade;
+	animation-delay: .4s;
+	animation-duration: .3s;
+	animation-timing-function: ease-in;
+	animation-fill-mode: forwards;
+}
+
+.p18.on {
+	text-shadow: rgb(225, 230, 0) 0em 0em .2em; 
+	}
+
+
+
+
+
+
+
+
+/* INTERLINKED FIRST */
+.p19.on {
+	top: 32%;
+	left: 13%;
+	text-shadow: #191829 0em 0em .2em;
+	font-size: 120%;
+	animation-name: fade;
+	animation-delay: .6s;
+	animation-duration: .3s;
+	animation-timing-function: ease-in;
+	animation-fill-mode: forwards;
+}
+
+.p20.on {
+	text-shadow: rgb(100, 255, 229) 0em 0em .2em; 
+	color: black;
+	}
+
+.p21.on {
+	top: 30%;
+	left: 8%;
+	text-shadow: #191829 0em 0em .2em;
+	font-size: 130%;
+	animation-name: fade;
+	animation-delay: 1.7s;
+	animation-duration: .3s;
+	animation-timing-function: ease-in;
+	animation-fill-mode: forwards;
+}
+
+.p21.on span:nth-of-type(8):before {
+	content: "\A";
+	white-space:pre;
+}
+
+.p22.on {
+	top: 32%;
+	left: 13%;
+	text-shadow: #191829 0em 0em .2em;
+	font-size: 150%;
+	animation-name: fade;
+	animation-delay: .6s;
+	animation-duration: .3s;
+	animation-timing-function: ease-in;
+	animation-fill-mode: forwards;
+}
+
+.p23.on {
+	text-shadow: rgb(100, 255, 229 ) 0em 0em .2em; 
+	color: black;
+	}
+
+.p24.on {
+	top: 30%;
+	left: 8%;
+	text-shadow: #191829 0em 0em .2em;
+	font-size:160%;
+	animation-name: fade;
+	animation-delay: 1.4s;
+	animation-duration: .3s;
+	animation-timing-function: ease-in;
+	animation-fill-mode: forwards;
+}
+
+.p24.on span:nth-of-type(8):before {
+	content: "\A";
+	white-space:pre;
+}
+
+.p25.on {
+	top: 32%;
+	left: 13%;
+	text-shadow: #191829 0em 0em .2em;
+	font-size: 180%;
+	animation-name: fade;
+	animation-delay: .6s;
+	animation-duration: .3s;
+	animation-timing-function: ease-in;
+	animation-fill-mode: forwards;
+}
+
+/* bright */
+.p26.on {
+	left: 75%;
+	text-shadow: rgb(100, 255, 229) 0em 0em .2em; 
+	color: black;
+	}
+
+.p27.on {
+	top: 30%;
+	left: 8%;
+	text-shadow: #191829 0em 0em .2em;
+	font-size: 190%;
+	animation-name: fade;
+	animation-delay: 1.5s;
+	animation-duration: .3s;
+	animation-timing-function: ease-in;
+	animation-fill-mode: forwards;
+}
+
+.p27.on span:nth-of-type(7):before {
+	content: "\A";
+	white-space:pre;
+}
+
+.p28.on {
+	top: 32%;
+	left: 13%;
+	text-shadow: #191829 0em 0em .2em;
+	font-size: 210%;
+	animation-name: fade;
+	animation-delay: .6s;
+	animation-duration: .3s;
+	animation-timing-function: ease-in;
+	animation-fill-mode: forwards;
+}
+
+.p29.on {
+	left: 80%;
+	text-shadow: rgb(100, 255, 229) 0em 0em .2em; 
+	color: black;
+	}
+
+.p30.on {
+	top: 30%;
+	left: 8%;
+	text-shadow: #191829 0em 0em .2em;
+	font-size: 180%;
+	animation-name: fade;
+	animation-delay: 1.4s;
+	animation-duration: .3s;
+	animation-timing-function: ease-in;
+	animation-fill-mode: forwards;
+}
+
+.p30.on span:nth-of-type(6):before {
+	content: "\A";
+	white-space:pre;
+}
+
+.p31.on {
+	left: 75%;
+	text-shadow: rgb(100, 255, 229) 0em 0em .2em; 
+	/* color: black; */
+	}
+
+.p32.on {
+	top: 30%;
+	left: 8%;
+	text-shadow: #191829 0em 0em .2em;
+	font-size: 160%;
+	animation-name: fade;
+	animation-delay: 1.8s;
+	animation-duration: .3s;
+	animation-timing-function: ease-in;
+	animation-fill-mode: forwards;
+}
+
+.p32.on span:nth-of-type(8):before {
+	content: "\A";
+	white-space:pre;
+}
+
+.p33.on {
+	top: 32%;
+	left: 13%;
+	text-shadow: #191829 0em 0em .2em;
+	font-size: 220%;
+	animation-name: fade;
+	animation-delay: .6s;
+	animation-duration: .3s;
+	animation-timing-function: ease-in;
+	animation-fill-mode: forwards;
+}
+
+.p34.on {
+	text-shadow: rgb(100, 255, 229) 0em 0em .2em; 
+	/* color: black; */
+	}
+
+.p35.on {
+	top: 30%;
+	left: 8%;
+	text-shadow: #191829 0em 0em .2em;
+	font-size: 160%;
+	animation-name: fade;
+	animation-delay: 1.7s;
+	animation-duration: .3s;
+	animation-timing-function: ease-in;
+	animation-fill-mode: forwards;
+}
+
+.p35.on span:nth-of-type(9):before {
+	content: "\A";
+	white-space:pre;
+}
+
+.p36.on {
+	top: 32%;
+	left: 13%;
+	text-shadow: #191829 0em 0em .2em;
+	font-size: 230%;
+	animation-name: fade;
+	animation-delay: .6s;
+	animation-duration: .3s;
+	animation-timing-function: ease-in;
+	animation-fill-mode: forwards;
+}
+
+.p37.on {
+	text-shadow: rgb(100, 255, 229) 0em 0em .2em; 
+	/* color: black; */
+	}
+
+.p38.on {
+	top: 30%;
+	left: 8%;
+	text-shadow: #191829 0em 0em .2em;
+	font-size: 160%;
+	animation-name: fade;
+	animation-delay: 1.7s;
+	animation-duration: .3s;
+	animation-timing-function: ease-in;
+	animation-fill-mode: forwards;
+}
+
+.p38.on span:nth-of-type(3):before {
+	content: "\A";
+	white-space:pre;
+	font-size: 220%;
+}
+
+.p39.on {
+	text-shadow: rgb(100, 255, 229) 0em 0em .2em; 
+	/* color: black; */
+	}
+
+.p40.on {
+	top: 30%;
+	left: 8%;
+	text-shadow: #191829 0em 0em .2em;
+	font-size: 160%;
+	animation-name: fade;
+	animation-delay: 2.6s;
+	animation-duration: .3s;
+	animation-timing-function: ease-in;
+	animation-fill-mode: forwards;
+}
+
+.p40.on span:nth-of-type(3):before {
+	content: "\A";
+	white-space:pre;
+}
+
+.p40.on span:nth-of-type(8):before {
+	content: "\A";
+	white-space:pre;
+}
+
+.p40.on span:nth-of-type(10):before {
+	content: "\A";
+	white-space:pre;
+}
+
+.p41.on {
+	top: 40%;
+	left: 65%;
+	text-shadow: rgb(100, 255, 229) 0em 0em .2em; 
+	color: black;
+}
+
+.p42.on {
+	top: 45%;
+	left: 70%;
+	transform: rotate(1deg);
+	text-shadow: rgb(225, 230, 0) 0em 0em .2em; 
+	color: black;
+}
+
+.p43.on {
+	top: 50%;
+	left: 67%;
+	transform: rotate(-1deg);
+  text-shadow: rgb(100, 255, 229) 0em 0em .2em; 
+	color: black;
+}
+
+.p44.on {
+	top: 15%;
+	left: 15%;
+	text-shadow: #191829 0em 0em .2em;
+}
+
+.p45.on {
+	top: 15%;
+	left: 15%;
+	text-shadow: #191829 0em 0em .2em;
+}
+
+.p46.on {
+	top: 20%;
+	left: 15%;
+	text-shadow: #191829 0em 0em .2em;
+}
+
+.p47.on {
+	text-shadow: rgb(225, 230, 0) 0em 0em .2em; 
 }
 
 
 
-
-
+@keyframes fade {
+  0% {
+    filter:blur(0px);
+    opacity:1;
+		color: white;
+  }
+  50% {
+    filter:blur(15px);
+    opacity:0.9;
+		color: black;
+	}
+  100% {
+    filter:blur(25px);
+    opacity:0;
+		color: black;
+  }  
+}
 
 
 /* **********************************************
@@ -241,10 +701,6 @@ Sounds.
 	style anything within the body the moment
 	a sound starts.
 *********************************************  */
-
-/* .sound0 {
-	background-color: rgb(8, 8, 8);
-} */
 
 .sound0 #video-mask {
   animation-name: flying;
@@ -346,9 +802,51 @@ Sounds.
 	background-color: white;
 }
 
+.sound18 {
+	animation-name: to-black;
+	animation-timing-function: ease-in;
+	animation-iteration-count: 1;
+	animation-duration: 2.3s;
+	animation-fill-mode: forwards ;
+}
+
+.sound18 #video-mask {
+	animation-name: zoom;
+	animation-timing-function: ease-in;
+	animation-iteration-count: 2;
+	animation-duration: 9s;
+	animation-fill-mode: forwards ;
+}
+
 /* **********************************************
 Animations */
 
+@keyframes zoom {
+	0% {
+		transform: scale(100%);
+	}
+	50% {
+		transform: scale(120%);
+	} 
+	100% {
+		transform: scale(100%);
+	}
+}
+
+@keyframes to-black {
+	0% {
+		background-color: white;
+		filter: brightness(1);
+	}
+90% {
+	background-color: black;
+	filter: brightness(0);
+}
+	100% {
+		background-color: black;
+		filter: brightness(1);
+	}
+}
 
 @keyframes flying {
 	0% {
@@ -592,13 +1090,20 @@ Animations tekst */
 @keyframes whisper-fade {
 	0% {
 	opacity: 1;
-	transform: scale(100%);
 	transform: translateX(0);
 	}
+
+5% {
+	border: none;
+}
+90% {
+	border: none;
+}
 	100% {
-		opacity: 0;
-		transform: scale(80%);
-		transform: translateX(25%);
+		opacity: 0.9;
+		filter: blur(2em);
+		transform: translateX(50%);
+		border: none;
 	}
 }
 

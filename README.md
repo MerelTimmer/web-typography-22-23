@@ -1,83 +1,37 @@
-# Web Typography, 2020/2021
+# Onderbouwing
 
-Als je doof bent, of als je om een andere reden geen geluid kunt horen, dan mis je veel informatie als je een film kijkt. Knisperende voetstappen, langzaam aanzwellende muziek, nerveus getik op een deur, je hoort het natuurlijk allemaal niet. Nu bestaat er zoiets als *closed caption*, wat een type ondertiteling is waarbij ook dingen als omgevingsgeluiden en de muziek beschreven worden. Hierdoor krijgt een kijker die informatie wel binnen.
+Ontwerpkeuzes
+Om dit fragment ook voor doven aantrekkelijk te maken heb ik eerst geluisterd naar welke momenten en geluiden er cruciaal zijn om op in te spelen. Waarna ik ben gaan brainstormen om te kijken op welke manier ik deze momenten visueel kan ondersteunen.
 
-Alleen wordt die auditieve informatie nogal neutraal beschreven. Het geluid van huilend persoon zou bijvoorbeeld beschreven kunnen worden als *snikgeluid op de achtergrond*. En iemand die lacht zou geschreven kunnen worden als *iemand lacht.* Heel neutraal, bijna zakelijk, en bovendien allebei in precies hetzelfde neutrale lettertype. Terwijl het toch echt over twee heel verschillende emoties gaat. 
+## Eerste scéne
 
-Dat kan visueel sterker. 
+In de eerste scéne zit Constant K. in een vliegend voertuig. Ik wilde dit nabootsen door het beeld in de eerste paar seconden van links naar rechts te laten bewegen. Zo komt er meer dynamiek in het fragment en is het interessanter om naar te kijken. 
+ Zodra het alarm afgaat komt er een rode box-shadow achter het beeld. Rood is een agressieve en felle kleur die vaak geassocieerd wordt met een alarm waardoor dit een logische ontwerpkeuze is. Om de impact van het alarm nog groter te maken heb ik het gehele beeld vergroot, zo komt het alarm wat meer op de kijker af zoals het geluid ook doet. De box-shadow vervalt zodra het alarm stopt, maar het beeld blijft nog in het grotere formaat.
+Hierdoor kon ik tijdens de scangeluiden het beeld weer laten verkleinen naar de oorspronkelijke status. Dit in combinatie met een lichtblauwe border om het scangeluid wat meer te visualiseren. De lichtblauwe kleur refereert naar technologie en elektronica. Dit vind ik goed passen om er meer een futuristische sfeer in het fragment te creëren. Deze kleur komt ook vaker voor in andere scénes.
+Voor het scannen heb ik ook geprobeerd om een laser achter het fragment te plaatsen waardoor de scan nog beter gevisualiseerd zou worden. Dit lukte bij twee van de drie scans, maar ik kreeg dit niet helemaal werkend waardoor ik heb gekozen om het weg te laten. Ik vind het idee nog steeds passend en sfeerversterkend, zeker omdat ik in het tweede fragment ook al een stuk zag waar ik dit kon toepassen. Wanneer er meer tijd was had ik dit zeker wel werkend gekregen.
 
-En dat gaan jullie doen.
 
-## Leerdoelen
 
-- Je kan de kennis over vormgeving die je hebt opgedaan tijdens de minor technisch toepassen met behulp van CSS
-- Je kan verborgen nuance uit een audiotrack overtuigend vertalen naar visuele (typografische) beelden
-- Je kan je typografische keuzes onderbouwen.
-- Je hebt de exclusive design principles gebruikt.
+## Derde scéne (pieptoon)
 
-## Oplevering
+Ik wilde de overgang van het donkere, spannende begin naar de felle, irritante pieptoon benadrukken. Dit heb ik gedaan door de achtergrondkleur in het begin heel donker te houden, en zodra de pieptoon start maakt de achtergrond een overgang naar wit. Hoe witter het beeld, hoe feller de pieptoon. Omdat ik alleen de kleur wit niet fel genoeg vond, heb ik ook nog een brightness filter toegepast om zo de scherpte van de toon nog beter na te bootsen. Dit in combinatie met een flikkerende achtergrond die steeds heftiger wordt om te laten zien dat de pieptoon steeds irritanter en harder lijkt te worden. Voor het flikkeren heb ik de lichtblauwe en felgele kleuren gebruikt, die elkaar afwisselen. De gele kleur draagt bij aan de felheid van het beeld en maakt het flikkeren wat beter zichtbaar.
+Ik heb ook een poging gedaan om het beeld steeds sneller te laten schudden tijdens de pieptoon. Maar in combinatie met alle andere elementen gebeurde er nu te veel en werd het naar mijn mening te moeilijk om het fragment te volgen. Vandaar de keuze om alleen met een pijnlijke felheid en het flikkeren te werken.
+Om de overgang naar de vierde scéne te maken die veel mysterieuzer en dramatischer heb ik het beeld geleidelijk zwart laten maken. Omdat het zo vloeiend donker wordt komt er gelijk een andere sfeer naar boven en geeft het de overgang goed weer.
 
-Je levert een werkende versie op, gemaakt met HTML, CSS en JavaScript. Deze staat op Github. In een duidelijke readme documenteer en onderbouw je je ontwerpkeuzes. Je developmentgeschiedenis is terug te vinden op GitHub.
+## Typografische keuzes
 
-Je levert ook een *screen recording* met audio op van je fragment. Dit is een video van de definitieve versie, gemaakt van jouw browserscherm.
+Voor deze opdracht heb ik gewerkt met het Brenner font om zo verschillende stemmen te visualiseren. Ik heb voor alle stemmen in het fragment gewerkt met een combinatie van Brenner Mono Medium, Mono Regular, Slab Regular en Brenner Medium. 
 
-De beoordeling is mondeling en volgt [de rubric uit het beoordelingsformulier](web-typografie-beoordeling.pdf).
+Voice 1
+Voor de vertellende stem heb ik gekozen voor een combinatie van Brenner Mono Medium en Brenner Medium. Het Brenner Medium font heeft wat scherpere hoeken en geeft samen met het vetgedrukte effect meer kracht aan de stem. 
+Bij de scéne van de post-traumatische test heb ik juist gekozen om Brenner Mono Medium te gebruiken. Dit font maakt de scéne wat zakelijker en harder. Tijdens deze scéne heb ik gewerkt met een fade-out bij deze stem om een echo-effect te creëren. Daarnaast veranderd te tekst bij elke ‘Cells’ of ‘interlinked’ van grote aangezien de stem zelf ook steeds agressiever en feller klinkt. 
+De tekst van voice 1 is altijd hoger gepositioneerd dan die van Constant K., om meer autoriteit in de visualisatie te brengen. 
 
-## Typografische restricties
+Voice 2
+Voor de stem van Constant K. heb ik gekozen voor Brenner Mono Regular. Ik wilde de emotieloze en monotone sfeer zo goed mogelijk overbrengen door zijn stem redelijk saai te visualiseren. Brenner Mono Regular is een strak en modern font wat naar mijn mening dit gevoel goed overbrengt. 
+De plaatsing van zijn stem is altijd onder die van voice 1 gepositioneerd.. Hiermee wil ik de onderdanigheid van Constant K. meer naar voren brengen en automatisch de autoriteit van voice 1 versterken. 
 
-Je *moet* een van deze twee opties kiezen, en je keuze moet je onderbouwen. In je readme staat een uitleg over je overwegingen om de ene of de andere restrictie te kiezen.
+Voice 3
+Bij voice 3 heb ik gebruik gemaakt van het font Brenner Slab Regular. Dit font is wat hoekiger en onvoorspelbaarder waardoor het past bij een zin met scheldwoorden. De scheldwoorden heb ik rood en in kapitalen gemaakt om zo de agressieve toon te versterken. Ook is er een verschil in opacity om zo de hardheid van elk woord aan te geven. De fade-out-animatie draagt bij aan het fluister-effect en bootst het wegebbende geluid na.
 
-### Optie 1: Systeemfont
-
-De eerste optie is dat je gebruik maakt van het zogenaamde *systeemfont* van degene die naar jouw werk kijkt. Dit font verschilt per operating system, en het verschilt soms zelfs per versie van het operating system. Het is ook aan te passen door de gebruiker zelf. 
-
-Je hebt dus geen controle over welk lettertype er precies gebruikt wordt. Het levert dus een onzeker, en beperkt typografisch palet op. Je hebt geen *light* versies, of *extrabold*. En ook geen serif en sans-serif versie van dezelfde familie. In dit geval heb je alleen de beschikking over normal, **bold** en _italic_. Dit heeft natuurlijk ook zijn voordelen!
-
-### Optie 2: Brenner
-
-Je kan er ook voor kiezen om gebruik te maken van de complete Brenner familie. Dit is een zeer uitgebreid en uiterst flexibel font. [Hier kan je je verdiepen in dit font](https://www.typotheque.com/blog/brenner_an_unusual_typeface_family_with_distinct_voices). Als je kiest voor dit font dan heb je de beschikking over een *sans serif*, een *condensed*, een *serif*, een *monotype*, een *slab*, een *display* en een *script* versie. En veel van deze versies hebben varianten van *light* tot *bold*, en allemaal zowel *bold* als *italic*.
-
-Met Brenner zijn er natuurlijk veel en veel meer mogelijkheden dan met systeemfonts. Dat kan zowel een voordeel als een nadeel zijn. 
-
-Voor een overzicht, zie [de brenner.pdf](brenner.pdf).
-
-## Het fragment
-
-Ik heb een fragment voorbereid. Het gaat om twee scenes uit *Blade Runner 2049*. De captions staan in de HTML, en ze verschijnen in sync met de video. [Kijk maar](closed-captions/index.html).
-
-### De captions
-
-De captions staan in de html, in het bestand index.html. Je kan aan elke paragraaf eventueel een of meer classes toevoegen. Bijvoorbeeld `voice1` of `voice2 soft`. Classes voeg je handmatig toe in de html.
-
-Met JavaScript worden er een paar dingen extra gedaan: 
-
-- er wordt aan elke paragraaf een unieke class toegevoegd (`p0`, `p1`, etc)
-- Elk woord wordt in een aparte `span` gezet. Hierdoor kan je elk woord apart stylen, en eventueel ook [na elkaar laten verschijnen](https://github.com/cmda-minor-vid/web-typography-18-19/blob/master/closed-captions/css.css#L41).
-
-### Tijdens het afspelen
-
-Tijdens het afspeelen wordt er een class `on` op de caption gezet als hij moet verschijnen, en een class `off` als hij klaar is. *Zowel class `on` als class `off` blijft op de caption staan!*
-
-De timimg van de captions kan je aanpassen in [closed-captions/captions.js](closed-captions/captions.js).
-
-Er verschijnen ook classes op de body op momenten dat er geluiden worden afgespeeld, zoals `sound1` en `sound2`. Je kan geluiden toevoegen in [closed-captions/sounds.js](closed-captions/sounds.js).
-
-*let op,* de geluiden zijn niet compleet, dit zal je zelf moeten aanvullen.
-
-## Een eigen fragment (afgeraden, uitgebreide onderbouwing is nodig)
-
-Je kan er ook voor kiezen om een eigen, *beter* fragment te gebruiken. Dit wordt afgeraden. De tijd die je besteedt aan het zoeken naar dat fragment kan je beter besteden aan het werken aan de opdracht. Bovendien blijkt dat er vaak fragmenten worden gekozen die niet goed voldoen aan de opdracht. Als je een ander fragment kiest dan *moet* je dit goed onderbouwd voorleggen aan je docent. De deadline hiervoor is vrijdagochtend in de eerste week.
-
-### Waar moet je op letten bij het kiezen van een eigen fragment.
-Lees de opdracht nog eens goed door. Waar gaat het ook al weer precies om? 
-
-Voor een goede onderbouwing van je keuze voor een ander fragment moet je deze vragen in elk geval beantwoorden:
-
-- Welke informatie zit er in de audio die echt niet zichtbaar is?
-- Welke rol speelt de audio in het fragment?
-- Werkt de scene nog zonder geluid?
-- Waarom is dit fragment beter dan het aangeboden fragment?
-
-Je kan dan de nodige HTML en JavaScript genereren door gebruik te maken van [caption generator](https://cmda-minor-vid.github.io/web-typography-18-19/generator/) (in Google Chrome). 
-
-Als je de closed captions wil bewerken dan kan je een tool zoals [Amber Script](https://www.amberscript.com/en) gebruiken. Daar kan je exporteren als `.srt`, en die kan je weer door de generator halen.
+Voor de tekst ‘FUCK OFF, skin-job’ heb ik gebruik gemaakt van een ronde stippel-border om de tekst heen om zo het fluisteren duidelijker te maken. De rondingen en de stippel-border moeten de hardheid wat zachter maken zodat het niet lijkt alsof de hele gang het schreeuwt.
